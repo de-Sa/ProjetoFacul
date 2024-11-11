@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <img src="unicu.png" alt="Logo Unicuritiba" class="logo">
+        <ul>
+            <li><a href="#dashboard" class="selected"><img src="dashboard-icon.png" alt="Dashboard Icon"> Dashboard</a>
+            </li>
+            <li><a href="#consultas"><img src="consultas-icon.png" alt="Consultas Icon"> Consultas</a></li>
+            <li><a href="#prontuario"><img src="prontuario-icon.png" alt="Prontuário Icon"
+                        style="height: 23px; width: 20px;"> Prontuário</a></li>
+            <li><a href="#relatorios"><img src="relatorios-icon.png" alt="Relatórios Icon"
+                        style="height: 24px; width: 25px;"> Relatórios</a></li>
+            <li><a href="#pacientes"><img src="pacientes-icon.png" alt="Pacientes Icon"
+                        style="height: 20px; width: 25px;"> Pacientes</a></li>
+            <li><a href="#configuracoes"><img src="configuracoes-icon.png" alt="Configurações Icon"> Configurações</a>
+            </li>
+            <li><a href="#comunicados"><img src="comunicados-icon.png" alt="Comunicados Icon"> Comunicados</a></li>
+        </ul>
+    </div>
+
+
+    <div class="content">
+        <header>
+            <p>Bom Dia, <strong>Lucas Filipak</strong></p>
+            <div class="profile-section">
+                <div class="notification-icon">
+                    <span class="notification-dot"></span>
+                    <img src="bell-icon.png" alt="Notificação">
+                </div>
+                <div class="user-info">
+                    <img src="user-photo.png" alt="Foto do usuário">
+                    <span>Lucas</span>
+                </div>
+            </div>
+        </header>
+
+        <div id="dashboard" class="section active">
+            <h1>Dashboard</h1>
+            <!-- Conteúdo do Dashboard -->
+        </div>
+
+        <div id="consultas" class="section">
+            <h1>Consultas</h1>
+            
+        </div>
+
+        <div id="prontuario" class="section">
+            <div class="prontuario-layout">
+                
+                <div class="prontuario-sidebar-container">
+                    <div class="prontuario-buttons">
+                        <button class="tab-button">Número Prontuário</button>
+                        <button class="tab-button">Data</button>
+                    </div>
+                    <ul class="prontuario-menu">
+                        <li class="menu-item selected"><img src="pacientes-icon.png" alt="Ícone Dados do Paciente" style="height: 23px; width: 30px;"> Dados do Paciente</li>
+                        <li class="menu-item"><img src="bookmark-icon.png" alt="Ícone Anotações"> Anotações</li>
+                        <li class="menu-item"><img src="bookmark-icon.png" alt="Ícone Histórico Familiar"> Histórico Familiar</li>
+                        <li class="menu-item"><img src="bookmark-icon.png" alt="Ícone Histórico Social"> Histórico Social</li>
+                        <li class="menu-item"><img src="bookmark-icon.png" alt="Ícone Considerações Finais"> Considerações Finais</li>
+                        <li class="menu-item"><img src="bookmark-icon.png" alt="Ícone Observações"> Observações</li>
+                    </ul>
+                </div>
+        
+                
+                <div class="form-container">
+                    <h2>Prontuário: Dados do Paciente</h2>
+                    <form>
+                        <div class="form-group"><label>Nome</label><input type="text"></div>
+                        <div class="form-group"><label>Data de Nascimento</label><input type="date"></div>
+                        <div class="form-group"><label>Gênero</label><input type="text"></div>
+                        <div class="form-group"><label>E-mail</label><input type="email"></div>
+                        <div class="form-group"><label>Telefone</label><input type="text"></div>
+                        <div class="form-group"><label>Contato Emergência</label><input type="text"></div>
+                        <div class="form-group"><label>Ocupação</label><input type="text"></div>
+                        <div class="form-group"><label>Escolaridade</label><input type="text"></div>
+                        <div class="form-group"><label>Necessidade Especial</label><input type="text"></div>
+                        <div class="form-group"><label>Endereço</label><input type="text"></div>
+                        <div class="form-group"><label>CEP</label><input type="text"></div>
+                        <div class="form-group"><label>Número</label><input type="text"></div>
+                        <div class="form-group"><label>Complemento</label><input type="text"></div>
+                    </form>
+                    <button type="submit" class="submit-button">Confirmar</button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div id="relatorios" class="section">
+            <h1>Relatórios</h1>
+            
+        </div>
+
+        <div id="pacientes" class="section">
+            <h1>Pacientes</h1>
+            
+        </div>
+
+        <div id="configuracoes" class="section">
+            <h1>Configurações</h1>
+            
+        </div>
+
+        <div id="comunicados" class="section">
+            <h1>Comunicados</h1>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
